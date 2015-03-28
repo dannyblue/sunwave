@@ -1,0 +1,25 @@
+.rect {height: 100%}
+.rect .row-fluid:nth-child(1){height:8.8889%;}
+.rect .row-fluid:nth-child(2),#rect .row-fluid:nth-child(3){height:40%}
+.rect .span12{position: relative;height: 100%}
+.rect .span12:before{content:"";position:absolute;top:50%;width: 90%;left:5%;height:2px;margin-top:-1px;background:#fff}
+.rect h3{position: relative;text-align: center;width: 50%;margin: 0 auto;background: inherit;}
+
+/*2*/
+.rect .span12{background:#3d3d3d ;}
+/* .rect .span6:before{color: black;content: attr(data-value);z-index: 10;position: absolute;font-size: 24px;height: 30px;line-height: 30px;font-weight: 700;left: 50%;font-family: "微软雅黑"!important;margin-top: 9px;width: 100%;-webkit-transform: translateX(-50%);transform: translateX(-50%);} */
+.rect .span6>span{color: black;z-index: 10;position: absolute;font-size: 24px;height: 30px;line-height: 30px;font-weight: 700;left: 50%;font-family: "微软雅黑"!important;margin-top: 9px;width: 100%;-webkit-transform: translateX(-50%);transform: translateX(-50%);}
+.rect .span6>p{margin:0}
+.rect .span6{height:100%;text-align:center;color:#F00;font-size:7em;line-height:155px;position:relative;cursor: pointer;border: 2px solid #3d3d3d;font-family: '准圆+HandelGot+Digifaw'!important;}
+.rect .row-fluid:nth-child(2) .span6:nth-child(1){background: #fff}
+.rect .row-fluid:nth-child(2) .span6:nth-child(2){background: #fff}
+.rect .row-fluid:nth-child(3) .span6:nth-child(1){background: #fff}
+.rect .row-fluid:nth-child(3) .span6:nth-child(2){background: #fff} 
+/*1*/
+/* #rect .span12{background:#e54f1a ;} */
+/* #rect .span6:before{color: white;content: attr(data-value);z-index: 10;position: absolute;left: 14px;bottom: 14px;font-size: 14px;height: 30px;line-height: 30px;} */
+/* #rect .span6{height:100%;text-align:center;color:#FFF;font-size:6em;line-height:180px;position:relative;cursor: pointer;font-family: '准圆+HandelGot+Digifaw'!important;} */
+/* #rect .row-fluid:nth-child(2) .span6:nth-child(1){background:#0185d0;}
+#rect .row-fluid:nth-child(2) .span6:nth-child(2){background:#603cba;}
+#rect .row-fluid:nth-child(3) .span6:nth-child(1){background:#ac2546;}
+#rect .row-fluid:nth-child(3) .span6:nth-child(2){background:#019421;} */

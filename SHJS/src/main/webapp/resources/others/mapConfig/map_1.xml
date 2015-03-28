@@ -1,0 +1,26 @@
+
+<mxGraphModel>
+	<root>
+		<Workflow label="MyWorkflow" description="" href="" id="0">
+			<mxCell />
+		</Workflow>
+		<Layer label="Default Layer" id="1">
+			<mxCell parent="0" />
+		</Layer>
+		<Task label="Task" description="" href="" id="2">
+			<mxCell vertex="1" parent="1">
+				<mxGeometry x="410" y="120" width="72" height="32" as="geometry" />
+			</mxCell>
+		</Task>
+		<Subprocess label="Subprocess" description="" href="" id="3">
+			<mxCell style="rounded" vertex="1" parent="1">
+				<mxGeometry x="590" y="290" width="72" height="32" as="geometry" />
+			</mxCell>
+		</Subprocess>
+		<Shape label="" description="" href="" id="4">
+			<mxCell style="ellipse" vertex="1" parent="1">
+				<mxGeometry x="250" y="210" width="32" height="32" as="geometry" />
+			</mxCell>
+		</Shape>
+	</root>
+</mxGraphModel>

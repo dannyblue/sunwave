@@ -1,0 +1,74 @@
+<mxDefaultToolbar>
+	<add as="save" action="save" icon="mxeditors/images/save.gif"/>
+	<add as="show" action="show" icon="mxeditors/images/preview.gif"/>
+	<add as="print" action="print" icon="mxeditors/images/print.gif"/>
+	<add as="exportImage" action="exportImage" icon="mxeditors/images/image.gif"/>
+	<br/><hr/>
+	<add as="select" mode="select" icon="mxeditors/images/select.gif"/>
+	<add as="pan" mode="pan" icon="mxeditors/images/pan.gif"/>
+	<add as="connect" mode="connect" icon="mxeditors/images/connect.gif"><![CDATA[
+		function (editor)
+		{
+			if (editor.defaultEdge != null)
+			{
+				editor.defaultEdge.style = null;
+			}
+		}
+	]]></add>
+	<add as="connect" mode="connect" icon="mxeditors/images/straight.gif"><![CDATA[
+		function (editor)
+		{
+			if (editor.defaultEdge != null)
+			{
+				editor.defaultEdge.style = 'straightEdge';
+			}
+		}
+	]]></add>
+	<br/><hr/>
+	<add as="undo" action="undo" icon="mxeditors/images/undo.gif"/>
+	<add as="redo" action="redo" icon="mxeditors/images/redo.gif"/>
+	<br/><hr/>
+	<add as="cut" action="cut" icon="mxeditors/images/cut.gif"/>
+	<add as="copy" action="copy" icon="mxeditors/images/copy.gif"/>
+	<add as="paste" action="paste" icon="mxeditors/images/paste.gif"/>
+	<add as="delete" action="delete" icon="mxeditors/images/delete.gif"/>
+	<br/><hr/>
+	<add as="group" action="group" icon="mxeditors/images/group.gif"/>
+	<add as="ungroup" action="ungroup" icon="mxeditors/images/ungroup.gif"/>
+	<br/><hr/>
+	<add as="Swimlane" template="swimlane" icon="mxeditors/images/swimlane.gif"/>
+	<add as="Task" template="task" icon="mxeditors/images/rectangle.gif"/>
+	<add as="Subprocess" template="subprocess" icon="mxeditors/images/rounded.gif"/>
+	<add as="Ellipse" template="shape" style="ellipse" icon="mxeditors/images/ellipse.gif"/>
+	<add as="Rhombus" template="shape" style="rhombus" icon="mxeditors/images/rhombus.gif"/>
+	<add as="Actor" template="shape" style="actor" icon="mxeditors/images/actor.gif"/>
+	<br/><hr/>
+	<add as="Event" template="symbol" style="symbol;image=mxeditors/images/symbols/event.png" icon="mxeditors/images/symbols/small_event.gif"/>
+	<add as="Event (Intermediate)" template="symbol" style="symbol;image=mxeditors/images/symbols/event_intermediate.png" icon="mxeditors/images/symbols/small_event_intermediate.gif"/>
+	<add as="Event (End)" template="symbol" style="symbol;image=mxeditors/images/symbols/event_end.png" icon="mxeditors/images/symbols/small_event_end.gif"/>
+	<add as="Timer" template="symbol" style="symbol;image=mxeditors/images/symbols/timer.png" icon="mxeditors/images/symbols/small_timer.gif"/>
+	<add as="Message" template="symbol" style="symbol;image=mxeditors/images/symbols/message.png" icon="mxeditors/images/symbols/small_message.gif"/>
+	<add as="Message (Intermediate)" template="symbol" style="symbol;image=mxeditors/images/symbols/message_intermediate.png" icon="mxeditors/images/symbols/small_message_intermediate.gif"/>
+	<add as="Message (End)" template="symbol" style="symbol;image=mxeditors/images/symbols/message_end.png" icon="mxeditors/images/symbols/small_message_end.gif"/>
+	<add as="Terminate" template="symbol" style="symbol;image=mxeditors/images/symbols/terminate.png" icon="mxeditors/images/symbols/small_terminate.gif"/>
+	<add as="Link" template="symbol" style="symbol;image=mxeditors/images/symbols/link.png" icon="mxeditors/images/symbols/small_link.gif"/>
+	<add as="Rule" template="symbol" style="symbol;image=mxeditors/images/symbols/rule.png" icon="mxeditors/images/symbols/small_rule.gif"/>
+	<add as="Multiple" template="symbol" style="symbol;image=mxeditors/images/symbols/multiple.png" icon="mxeditors/images/symbols/small_multiple.gif"/>
+	<add as="Error" template="symbol" style="symbol;image=mxeditors/images/symbols/error.png" icon="mxeditors/images/symbols/small_error.gif"/>
+	<add as="Cancel (End)" template="symbol" style="symbol;image=mxeditors/images/symbols/cancel_end.png" icon="mxeditors/images/symbols/small_cancel_end.gif"/>
+	<add as="Cancel (Intermediate)" template="symbol" style="symbol;image=mxeditors/images/symbols/cancel_intermediate.png" icon="mxeditors/images/symbols/small_cancel_intermediate.gif"/>
+	<add as="Fork" template="symbol" style="symbol;image=mxeditors/images/symbols/fork.png" icon="mxeditors/images/symbols/small_fork.gif"/>
+	<add as="Merge" template="symbol" style="symbol;image=mxeditors/images/symbols/merge.png" icon="mxeditors/images/symbols/small_merge.gif"/>
+	<add as="Inclusive" template="symbol" style="symbol;image=mxeditors/images/symbols/inclusive.png" icon="mxeditors/images/symbols/small_inclusive.gif"/>
+	<br/><hr/>
+	<add as="fit" action="fit" icon="mxeditors/images/zoom.gif"/>
+	<add as="zoomIn" action="zoomIn" icon="mxeditors/images/zoomin.gif"/>
+	<add as="zoomOut" action="zoomOut" icon="mxeditors/images/zoomout.gif"/>
+	<add as="actualSize" action="actualSize" icon="mxeditors/images/zoomactual.gif"/>
+	<add as="zoom" action="zoom" icon="mxeditors/images/zoom.gif"/>
+	<br/><hr/>
+	<add as="outline" action="toggleOutline" icon="mxeditors/images/outline.gif"/>
+	<add as="tasks" action="toggleTasks" icon="mxeditors/images/tasks.gif"/>
+	<add as="help" action="toggleHelp" icon="mxeditors/images/help.gif"/>
+	<add as="console" action="toggleConsole" icon="mxeditors/images/console.gif"/>
+</mxDefaultToolbar>

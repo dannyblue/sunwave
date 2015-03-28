@@ -1,0 +1,64 @@
+.navbar .brand {padding: 0;width: 300px;}
+.brand img {height: 30px!important;margin-top: -2px;}
+.brand>p {display: inline-block;height: 42px;margin: 0;line-height: 42px;color: #efb73e;font-weight: 700;letter-spacing: 2px;}
+.redBling{
+	-webkit-animation-name: "redBling";
+	-webkit-animation-duration: 2s;
+	-webkit-animation-iteration-count: infinite;
+	-ms-animation-name: "redBling";
+	-ms-animation-duration: 2s;
+	-ms-animation-iteration-count: infinite;
+	animation-name: "redBling";
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	outline:5px solid rgba(255,255,255,0);
+	outline-offset:0px;
+}
+.redBreath{
+	box-shadow: 0 0 8px rgba(255,0,0,.8) inset;
+	-webkit-animation-name: "redBreath";
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: infinite;
+	-ms-animation-name: "redBreath";
+	-ms-animation-duration: 1s;
+	-ms-animation-iteration-count: infinite;
+	animation-name: "redBreath";
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+@-webkit-keyframes 'redBling'{
+	from{
+		outline:2px solid rgba(224,34,34,.8);
+		outline-offset:0px;
+	}
+	to{
+		outline:1px solid rgba(255,255,255,0);
+		outline-offset:10px;
+	}
+}
+@-ms-keyframes 'redBling'{
+	from{
+		outline:2px solid rgba(224,34,34,.8);
+		outline-offset:0px;
+	}
+	to{
+		outline:1px solid rgba(255,255,255,0);
+		outline-offset:10px;
+	}
+}
+@-webkit-keyframes 'redBreath'{
+	from{
+		box-shadow: 0 0 8px rgba(255,0,0,.8) inset;
+	}
+	to{
+		box-shadow: 0 0 13px rgba(224,34,34,.5) inset;
+	}
+}
+@-ms-keyframes 'redBreath'{
+	from{
+		box-shadow: 0 0 8px rgba(255,0,0,.8) inset;
+	}
+	to{
+		box-shadow: 0 0 13px rgba(224,34,34,.5) inset;
+	}
+}

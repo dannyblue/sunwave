@@ -1,0 +1,39 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../../others/moonicon/icomoon.eot?nl7wtz');
+	src:url('../../others/moonicon/icomoon.eot?#iefixnl7wtz') format('embedded-opentype'),
+		url('../../others/moonicon/icomoon.woff?nl7wtz') format('woff'),
+		url('../../others/moonicon/icomoon.ttf?nl7wtz') format('truetype'),
+		url('../../others/moonicon/icomoon.svg?nl7wtz#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="iconsp-"], [class*=" iconsp-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: .6;
+	
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.iconsp-jail:before {
+	content: "\e600";
+	font-size: .8em;
+}
+
+.iconsp-call:before {
+	content: "\e601";
+}
+
+.iconsp-mobile:before {
+	content: "\e602";
+	margin-top:4px!important;
+}
+

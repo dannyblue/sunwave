@@ -1,0 +1,8 @@
+<mxEditor>
+	<ui>
+		<add as="graph" element="map"/>
+	</ui>
+	<mxGraph as="graph">
+		<include name="resources/others/mapConfig/mywfgraph-commons.xml"/>
+	</mxGraph>
+</mxEditor>

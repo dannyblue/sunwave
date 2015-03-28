@@ -1,0 +1,7 @@
+#statistics .portlet-title,#statPhone .portlet-title{background: #3d3d3d !important;}
+#statistics .portlet-title .caption,#statPhone .portlet-title .caption{border-bottom: 0px solid #fff !important;padding-bottom: 0px;}
+ .portlet-title .caption i,#statPhone .portlet-title .caption i{color:#fff;}
+#statistics .portlet-body{max-height: 222px;overflow-y:scroll;position:relative;}
+#statistics th,#statistics td{text-align: center;}
+#statistics td{font-weight:700;}
+#statistics {border: 1px solid;box-sizing: border-box;}

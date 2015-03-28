@@ -1,0 +1,1 @@
+#sidebar>li:first-child:hover{width: 0px !important;position: relative !important;z-index: 2000;display: block !important;}

@@ -1,0 +1,31 @@
+{
+    "user_management":[{
+        "name": "三维管理员",
+        "phoneNo": "",
+        "userName":"sunwave",
+        "role":"单位超级管理员",
+        "companyName":"三维通信有限公司",
+        "jobNo":"cs001"
+    },{
+        "name": "diaoduyuan",
+        "phoneNo": "",
+        "userName":"diaoduyuan",
+        "role":"管理员",
+        "companyName":"三维通信有限公司",
+        "jobNo":""
+    },{
+        "name": "调度员",
+        "phoneNo": "",
+        "userName":"sunwave_diaodu",
+        "role":"管理员",
+        "companyName":"三维通信有限公司",
+        "jobNo":"1"
+    },{
+        "name": "ta",
+        "phoneNo": "",
+        "userName":"sunwave",
+        "role":"单位超级管理员",
+        "companyName":"三维通信有限公司",
+        "jobNo":"cs001"
+    }]
+}
