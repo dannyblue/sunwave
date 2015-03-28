@@ -68,4 +68,10 @@ public class InvadeController {
 	public @ResponseBody void remove(String ids) {
 		invadeService.removeByIds(ids);
 	}
+	
+	@RequestMapping("/surveillance.invade.removeAll.do")
+	public @ResponseBody void removeAll(Integer areaId){
+		
+	}
+	
 }
